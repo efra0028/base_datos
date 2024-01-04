@@ -1,0 +1,24 @@
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+			
+1) la tienda electro que se dedica a la venta de celulares nesecita una base de datos que almacene los diferentes productos, 
+clientes, proveedores y enpleados
+
+productos
+proveedores
+empleados
+clientes
+
+un proveedor vende varios productos (1.M)
+un producto compran un empleado (M.1) (M.N) COMPRA
+
+un empleado venden varios productos (1.M)
+un producto tiene varios clientes (1.M) (1.M) VARIEDAD
+
+un cliente tiene que escoger un producto (1.1)
+un producto es vendio a un cliente (1.1) (1.1) VENTA
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
