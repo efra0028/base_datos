@@ -1,0 +1,16 @@
+la farmacia solares necesita una base de datos donde se guarde los diferentes medicamentos por categoria,proveedores, clientes,empleados
+
+un medicamento pertenece a una categoria(1.1)
+en una categoria hay varios medicamentos (1.M) (1.M) pertenece
+
+un medicamento es suministrado proveedor(1.1)
+un proveedor suministra varios medicamentos(1.M) (1.M) suministra
+
+un medicamento es comprado por un cliente(1.1)
+un cliente compra varios medicamentos (1.M) (1.M) Compra
+
+un empleado registra varias ventas(1.M)
+varias ventas son registrados por un empleado(M.1) (M.N) Regristro
+
+un empleado atiende a varios clientes(1.M)
+un cliente es atendido por un empleado(1.1) (M.1) atender
